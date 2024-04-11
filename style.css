@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+body {
+    font-family: "Racing Sans One", sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+}
+
+/* 1.Header Section */
+/* 2.Hero Section */
+/* 3.Car Model Section */
+
+/* 1.Header Section */
+/* Navbar */
+.navbar{
+    background-image: linear-gradient(67.5deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(382deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(427deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(292deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(382deg, rgb(8, 8, 8),rgb(221, 221, 221)); background-blend-mode:overlay,overlay,overlay,overlay,normal !important;
+}
+.nav-item{
+    margin: auto !important;
+    font-size: 20px !important;
+}
+.navbar-brand, .nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    padding: 10px !important;
+    border: 2px solid rgb(63, 78, 244) !important;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: rgb(63, 78, 244) !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-toggler:visited{
+    border: none !important;
+}
+.ptop{
+    padding-top: 5rem !important;
+}
+
+/* Button */
+.btn-primary{
+    background-color: rgb(63, 78, 244) !important;
+    color: white !important;
+}
+.btn-primary:hover{
+    color: rgb(63, 78, 244) !important;
+    background-color: black !important;
+}
+
+/* 2.Hero Section */
+.hero{
+    background-color: black !important;
+}
+.vw-normal{
+    color: rgb(63, 78, 244) !important;
+}
+.vw{
+    color: rgb(63, 78, 244) !important;
+}
+.vw:hover{
+    color: #2088e9 !important;
+}
+.text-md-start{
+    color: white !important;
+}
+.text-md-start p{
+    font-size: 20px !important;
+}
+.butn{
+    background-color: rgb(63, 78, 244) !important;
+    color: white !important;
+}
+.butn:hover{
+    color: rgb(63, 78, 244) !important;
+    background-color: black !important;
+}
+
+/* 3.Car Model Section */
+.tx-black{
+    color: black !important;
+}
+.nav-itemm{
+    margin: auto !important;
+    font-size: 20px !important;
+}
+.nav-linkk{
+    color: black !important;
+}
+.nav-linkk:hover{
+    color: rgb(63, 78, 244) !important;
+}
+
+
+@media screen and (max-width:768px){
+    .btn-primary{
+        color: rgb(63, 78, 244) !important;
+        background-color: black !important;
+    }
+}
